@@ -1,0 +1,65 @@
+.container {
+  margin-top: 20px;
+}
+
+.inline-box {
+  display: inline;
+}
+
+.inline-search {
+  display: inline-block;
+}
+
+.inline-cart {
+  display: inline-block;
+  float: right;
+}
+
+.badge{
+  position: relative;
+  top:-23px;
+  right:32px;
+}
+
+.card {
+  box-shadow: 0 10px 7px 0 #F5F5F5;
+  max-width: 350px;
+}
+
+.card:hover {
+  background: #F5F5F5	;
+}
+
+.modal-box {
+  box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.2);
+  z-index: 9999999999;
+  position: fixed;
+  top: 10%;
+  left:10%;
+  width:80%;
+  max-height: 80%;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.address {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right:100px;
+}
+
+.items-details{
+  width: 30%;
+  display: inline-block;
+}
+.flex-cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input[type=text], input[type=email], textarea {
+  margin-bottom: 20px;
+}
